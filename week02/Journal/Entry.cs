@@ -1,4 +1,5 @@
 using System;
+
 public class Entry
 {
     public string _date;
@@ -8,8 +9,8 @@ public class Entry
     public void Display()
     {
         Console.WriteLine($"Date: {_date}");
-        Console.WriteLine($"Date: {_promptText}");
-        Console.WriteLine($"Date: {_entryText}");
-        Console.WriteLine();       
+        Console.WriteLine($"Prompt: {_promptText}");    // Fixed label
+        Console.WriteLine($"Entry: {_entryText}");      // Fixed label
+        Console.WriteLine();
     }
 }
